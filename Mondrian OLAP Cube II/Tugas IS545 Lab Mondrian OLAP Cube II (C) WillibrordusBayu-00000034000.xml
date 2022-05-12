@@ -1,0 +1,26 @@
+<Schema name="mondrianS">
+  <Cube name="mondrianC" visible="true" cache="true" enabled="true">
+    <Table name="mondrian" alias="">
+    </Table>
+    <Dimension type="StandardDimension" visible="true" name="nameD">
+      <Hierarchy name="nameH" visible="true" hasAll="true">
+        <Level name="nameL" visible="true" column="name" uniqueMembers="true" levelType="Regular">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" name="addressD">
+      <Hierarchy name="addressH" visible="true" hasAll="true">
+        <Level name="addressL" visible="true" column="name" uniqueMembers="true" levelType="Regular">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" name="dataD">
+      <Hierarchy name="dataH" visible="true" hasAll="true">
+        <Level name="dataL" visible="true" column="name" uniqueMembers="true" levelType="Regular">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Measure name="Id" column="id" aggregator="distinct-count" visible="true">
+    </Measure>
+  </Cube>
+</Schema>
