@@ -30,7 +30,7 @@ universal development environment for PHP, Node.js, Python, Java, Go, Ruby](http
 * Copy the `mondrian.war` file from `mondrian-3.5.0.zip\mondrian-3.5.0\lib` to the webapps folder of Tomcat when the Tomcat server is running
 * After a while the server will extract / deploy the war package
 * Open the queries folder from the Mondrian application `C:\apache-tomcat-6.0.16\webapps\mondrian\WEB-INF\queries`
-* Edit the `mondrian.jsp file` - which contains the MDX configuration and query tags for Mondrian - and search for the line with the following contents:
+* Edit the `mondrian.jsp` file which contains the MDX configuration and query tags for Mondrian and search for the line with the following contents:
   ```jsp
   <jp:mondrianQuery
   id="query01"
