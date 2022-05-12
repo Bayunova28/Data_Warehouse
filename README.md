@@ -20,7 +20,7 @@ universal development environment for PHP, Node.js, Python, Java, Go, Ruby](http
 
 ## Installation Apache Tomcat
 * Download [apache-tomcat-7.0.91-windows-x64.zip](https://jakarta.apache.org/site/binindex.cgi)
-* Save and extract to your desktop in Program Files
+* Save and extract to your desktop on location of `C:\Program Files\apache-tomcat-7.0.91`
 * In the Tomcat folder, open the bin folder then Click the `startup.bat` icon.
 * You should see a black and white Java command window and you should not see any obvious java error messages
 * Open your browser and point to `http://localhost:8080` and you will have the Tomcat welcome page
